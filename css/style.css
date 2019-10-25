@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+
+.container{
+    max-width: 1170px;
+}
 a:hover{
     text-decoration: none;
     color: black;
@@ -5,10 +12,39 @@ a:hover{
 
 a{
     color: black;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Montserrat';
+    margin-right: 20px;
 }
 
 .activ:hover{
     color: #00cccc;
     border-radius: 15px;
+}
+
+.pad-top{
+    padding-top:183px;
+}
+
+.pad-bot{
+    padding-bottom: 40px;
+}
+
+.mar-bot{
+    margin-bottom: 200px;
+}
+
+.boutonsubmit{
+    background-color: #00cccc;   
+    border:1px solid transparent;
+    font-family: Georgia, serif;
+   font-size: 16px;
+    color: white;
+   padding: 15px 50px 15px 50px;
+   }
+
+
+.image{
+    background-image: url(../media/Photo-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
