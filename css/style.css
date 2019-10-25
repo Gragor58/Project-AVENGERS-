@@ -18,19 +18,18 @@ a{
 
 .activ:hover{
     color: #00cccc;
-    border-radius: 15px;
 }
 
 .pad-top{
     padding-top:183px;
 }
 
-.pad-bot{
-    padding-bottom: 40px;
-}
-
 .mar-bot{
     margin-bottom: 200px;
+}
+
+.mt-100{
+    margin-top: 100px;
 }
 
 .boutonsubmit{
@@ -48,3 +47,4 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
