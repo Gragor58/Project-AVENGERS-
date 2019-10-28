@@ -24,12 +24,24 @@ a{
     padding-top:183px;
 }
 
+.pad-bot{
+    padding-top: 160px;
+}
+
+.pad-left{
+    padding-left: 105px;
+}
+
 .mar-bot{
     margin-bottom: 200px;
 }
 
 .mt-100{
     margin-top: 100px;
+}
+
+.height{
+    height: 550px;
 }
 
 .boutonsubmit{
