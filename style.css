@@ -45,3 +45,10 @@ textarea{
 background-color:#39b4af;
 border-color:#39b4af;
 }
+
+@media (max-width:577px){
+    iframe{
+        width: 100%;
+        height: 200px;
+    }
+}
