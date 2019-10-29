@@ -75,4 +75,22 @@ a{
 }
 
 
+.bg-image{
+    background-image: url("medias/china.jpg");
+}
+
+.bg-image:before {
+    content: url("../medias/hover.png");
+   width: 400px;
+   height: 270px;
+    text-align: center;
+    line-height: 270px;
+    cursor: pointer;
+  
+    display: none;
+}
+.bg-image:hover::before{
+    display: block;
+}
+
 
